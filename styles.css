@@ -1,0 +1,57 @@
+/*
+  Project: Daniel's Cheat Sheet
+  Author: Daniel Xiang
+  Version: 0.0.0
+  Since: 2020-06-27 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 40%;
+  border: solid 2px;
+  margin: 3% auto;
+  color: rgb(58, 80, 61);
+  font-family: cursive, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+table, th, td {
+  border: solid 1px;
+  padding: 7px;
+}
+
+table {
+  margin: 2% auto 6% auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(58, 80, 61);
+  color: white;
+}
+
+footer {
+  margin-left: 3%;
+  margin-bottom: 2%;
+  color: rgb(153, 147, 147);
+}
+
+.code {
+  background-color: antiquewhite;
+  font-family: monospace;
+}
+
+.title {
+  color: rgb(131, 98, 55);
+}

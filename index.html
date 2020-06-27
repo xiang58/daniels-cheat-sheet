@@ -1,0 +1,116 @@
+<!-- 
+  Project: Daniel's Cheat Sheet
+  Author: Daniel Xiang
+  Version: 0.0.0
+  Since: 2020-06-27 
+/--> 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Daniel's Cheat Sheet</title>
+  <link href="./styles.css" type="text/css" rel="stylesheet" />
+  <link href="favi.png" type="image/png" rel="shortcut icon" />
+</head>
+
+<body>
+  <header>
+    <h1>HTML Table Reference</h1>
+  </header>
+
+  <main>
+    <section id="table-tags">
+      <h2 class="title">Table Tags</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><span class="code">&lt;table&gt;</span></td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;thead&gt;</span></td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tbody&gt;</span></td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;th&gt;</span></td>
+            <td>Table Heading</td>
+            <td>The title to rows or columns.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tr&gt;</span></td>
+            <td>Table Row</td>
+            <td>The table row container.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;td&gt;</span></td>
+            <td>Table Data</td>
+            <td>The table data container.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tfoot&gt;</span></td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer in a table.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="table-attributes">
+      <h2 class="title">Table Attributes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Name</th>
+            <th scope="col">Value</th>
+            <th scope="col">Description</th>
+            <th scope="col">Related Tag(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="code">scope</span></td>
+            <td>Header Scope</td>
+            <td>col / row / colgroup / rowgroup</td>
+            <td>Identifies whether a cell is a header for a column, row, or group of columns or rows.</td>
+            <td><span class="code">&lt;th&gt;</span></td>
+          </tr>
+          <tr>
+            <td><span class="code">colspan</span></td>
+            <td>Column Span</td>
+            <td>[int &ge; 1]</td>
+            <td>Defines how many columns a <em>td</em> or <em>th</em> element should span. (For improved accessibility, when creating table headings that span multiple columns, include the scope="colgroup" attribute in &lt;th&gt;.)</td>
+            <td><span class="code">&lt;td&gt;</span>, <span class="code">&lt;th&gt;</span></td>
+          </tr>
+          <tr>
+            <td><span class="code">rowspan</span></td>
+            <td>Row Span</td>
+            <td>[int &ge; 1]</td>
+            <td>Defines how many rows a <em>td</em> or <em>th</em> element should span. (For improved accessibility, when creating table headings that span multiple rows, include the scope="rowgroup" attribute in &lt;th&gt;.)</td>
+            <td><span class="code">&lt;td&gt;</span>, <span class="code">&lt;th&gt;</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>&copy; 2020 Daniel Xiang</footer>
+</body>
+
+</html>
